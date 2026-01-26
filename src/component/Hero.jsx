@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative w-full bg-white dark:bg-[#0a0118] min-h-screen flex flex-col lg:flex-row items-center justify-between px-6 md:px-12 lg:px-20 py-20 lg:py-32 overflow-hidden transition-colors duration-500"
+      className="relative w-full bg-white dark:bg-[#0a0118] min-h-screen flex flex-col lg:flex-row items-center justify-between px-6 md:px-12 lg:px-20 py-25 lg:py-32 overflow-hidden transition-colors duration-500"
     >
       {/* Background Decorations - Mobile par chota rakha hai */}
       <div className="absolute top-1/4 left-0 w-40 h-40 md:w-72 md:h-72 bg-purple-100/50 dark:bg-purple-900/20 blur-[80px] md:blur-[120px] rounded-full"></div>

@@ -31,7 +31,7 @@ const ResumeSection = () => {
   return (
     <section
       id="resume"
-      className="py-20 lg:py-32 bg-white dark:bg-[#0a0118] transition-colors duration-500"
+      className="py-10 lg:py-32 bg-white dark:bg-[#0a0118] transition-colors duration-500"
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
         {/* Header - Responsive text sizes */}

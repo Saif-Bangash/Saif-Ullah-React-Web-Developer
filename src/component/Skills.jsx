@@ -83,7 +83,7 @@ const Skills = () => {
   return (
     <section
       id="resume"
-      className="w-full bg-white dark:bg-[#0a0118] py-20 lg:py-32 px-6 md:px-12 lg:px-20 relative overflow-hidden transition-colors duration-500"
+      className="w-full bg-white dark:bg-[#0a0118] py-10 lg:py-32 px-6 md:px-12 lg:px-20 relative overflow-hidden transition-colors duration-500"
     >
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Section Header */}

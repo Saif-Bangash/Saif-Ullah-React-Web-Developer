@@ -26,7 +26,7 @@ const Navbar = () => {
       className={`fixed w-full z-[100] transition-all duration-500 ${
         scrolled
           ? "bg-white backdrop-blur-xl py-3 shadow-2xl border-b border-white/5" // Scroll hone par DARK
-          : "bg-white/80 backdrop-blur-md py-5 border-b border-gray-100" // Default WHITE
+          : "bg-white/80 backdrop-blur-md py-2 border-b border-gray-100" // Default WHITE
       }`}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-12">
