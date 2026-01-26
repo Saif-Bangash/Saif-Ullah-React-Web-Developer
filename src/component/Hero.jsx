@@ -85,7 +85,7 @@ const Hero = () => {
           {/* Main Image Container */}
           <div className="w-70 h-100 sm:w-64 sm:h-80 md:w-80 md:h-[450px] bg-gradient-to-b from-purple-100 to-white dark:from-purple-900/40 dark:to-[#0a0118] rounded-[2.5rem] md:rounded-[3rem] overflow-hidden border-4 md:border-8 border-gray-50 dark:border-white/5 shadow-2xl">
             <img
-              src="src/assets/img/saifullah.jpeg"
+              src="/assets/img/saifullah.jpeg"
               alt="Saifullah"
               className="w-full h-full object-cover"
             />
