@@ -29,9 +29,9 @@ const Project = () => {
               {/* Image placeholder - Aap apni image src yahan add karein */}
               <div className="h-64 md:h-80 lg:h-96 bg-gray-800 flex items-center justify-center text-gray-500 overflow-hidden">
                 <img
-                  src="https://via.placeholder.com/800x600"
+                  src="https://www.webcomforts.com/mtill-uploads/files/smoknic-vape-web-design-190.webp"
                   alt="Project Thumbnail"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-700"
                 />
               </div>
             </div>
@@ -43,7 +43,7 @@ const Project = () => {
               Featured Project
             </span>
             <h3 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-white font-serif">
-              Spotify Data Visualizer
+              Smoknic Ltd
             </h3>
 
             {/* Description Card - Overlapping only on Large Screens */}
@@ -53,18 +53,52 @@ const Project = () => {
               lg:-ml-20   transition-all duration-300"
             >
               <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 leading-relaxed">
-                A web app for visualizing personalized Spotify data. View your
-                top artists, top tracks, recently played tracks, and detailed
-                audio information about each track.
+                Smoknic, a growing name in the vape industry, required a stylish
+                and functional website to effectively present their product
+                lineup, spotlight deals, and provide a smooth online shopping
+                experience.
+              </p>
+
+              <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 leading-relaxed mt-2">
+                We built a clean, mobile-optimized platform with eye-catching
+                visuals, user-friendly navigation, and sales-driven design —
+                aimed at boosting brand credibility, engaging customers, and
+                increasing conversions.
               </p>
             </div>
-
+ 
             {/* Tech Stack used in Project */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-3 mt-4 text-xs font-mono text-gray-500 dark:text-gray-400">
               <span>React</span>
-              <span>Node.js</span>
-              <span>Spotify API</span>
+              <span>Framer Motion</span>
               <span>Tailwind CSS</span>
+            </div>
+
+            {/* Project Link Section - NEW */}
+            <div className="pt-6 flex justify-center lg:justify-start">
+              <a
+                href="https://www.smoknic.co.uk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-2 text-gray-900 dark:text-white font-semibold text-sm hover:text-[#5C4DFF] dark:hover:text-purple-400 transition-colors"
+              >
+                <span>View Live Project</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"
+                >
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
