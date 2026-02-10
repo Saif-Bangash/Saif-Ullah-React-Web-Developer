@@ -6,6 +6,7 @@ import {
   FaJsSquare,
   FaNodeJs,
   FaGitAlt,
+  FaCss3Alt,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
@@ -59,11 +60,11 @@ const skills = [
     border: "hover:border-[#E34F26]",
   },
   {
-    name: "Git",
-    icon: <FaGitAlt />,
-    color: "group-hover:text-[#F05032]",
-    border: "hover:border-[#F05032]",
-  },
+  name: "CSS",
+  icon: <FaCss3Alt />,
+  color: "group-hover:text-[#264DE4]",
+  border: "hover:border-[#264DE4]",
+},
 ];
 
 const containerVariants = {
